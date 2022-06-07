@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table">
+    <thread>
+        <tr>
+            <th score="col">Name<</th>
+            <th score="col">Average Grade<</th>
+        </tr>
+    </thread>
+    <tbody>
+    <tr th:each= "student : ${students}">
+        <td th:text="${}"></td>
+        <td th:text="${}"></td>
+    </tr>
+    </tbody>
+</table>
+<h1>Hello MyApp"</h1>
+</body>
+</html>
